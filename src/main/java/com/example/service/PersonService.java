@@ -34,18 +34,17 @@ public class PersonService {
 		persons.add(p);
 		
 		p = new Person();
-		p.setId("10");
-		p.setAge(5);
-		p.setFirstName("ahmed");
-		p.setLastName("sn");
-		persons.add(p);
-		
-		
-		p = new Person();
 		p.setId("4");
 		p.setAge(25);
 		p.setFirstName("AbdulHalim");
 		p.setLastName("Mahmoud");
+		persons.add(p);
+
+		p = new Person();
+		p.setId("10");
+		p.setAge(5);
+		p.setFirstName("ahmed");
+		p.setLastName("sn");
 		persons.add(p);
 		
 	}
