@@ -41,19 +41,14 @@ public class PersonService {
 		persons.add(p);
 
 		p = new Person();
-		p.setId("10");
-		p.setAge(45);
-		p.setFirstName("nada");
-		p.setLastName("sn");
+		p.setId("6");
+		p.setAge(15);
+		p.setFirstName("Hamid");
+		p.setLastName("nada");
 		persons.add(p);
 
-		p = new Person();
-		p.setId("20");
-		p.setAge(35);
-		p.setFirstName("saida");
-		p.setLastName("ns");
-		persons.add(p);
-		
+
+
 	}
 	public Person getPerson(String id) {
 		for(Person person:persons) {
